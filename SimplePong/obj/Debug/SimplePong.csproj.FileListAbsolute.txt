@@ -1,0 +1,10 @@
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\obj\Debug\SimplePong.csprojResolveAssemblyReference.cache
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\obj\Debug\SimplePong.Form1.resources
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\obj\Debug\SimplePong.Properties.Resources.resources
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\obj\Debug\SimplePong.csproj.GenerateResource.Cache
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\obj\Debug\SimplePong.csproj.CoreCompileInputs.cache
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\bin\Debug\SimplePong.exe.config
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\bin\Debug\SimplePong.exe
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\bin\Debug\SimplePong.pdb
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\obj\Debug\SimplePong.exe
+C:\Users\William\Desktop\School\Visual C#\SimplePong\SimplePong\obj\Debug\SimplePong.pdb
