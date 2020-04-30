@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace SimplePong
 {
@@ -35,6 +36,10 @@ namespace SimplePong
         // vertical and horizontal movement of ball based on speed consts
         int MoveX = SPEED_X;
         int MoveY = SPEED_Y;
+
+        // instantiate soundplayer objs
+        SoundPlayer ballPlay = new SoundPlayer(Properties.Resources.PingPongBallHit);
+        SoundPlayer gameOverPlay = new SoundPlayer(Properties.Resources.GameOver);
 
         public void GameLoop()
         {
@@ -98,12 +103,14 @@ namespace SimplePong
 
             if (playerScore >= WIN)
             {
+                gameOverPlay.Play();
                 MessageBox.Show("You Won!");
                 playerScore = 0;
                 computerScore = 0;
             }
             if (computerScore >= WIN)
             {
+                gameOverPlay.Play();
                 MessageBox.Show("The Computer Won!");
                 playerScore = 0;
                 computerScore = 0;
@@ -123,12 +130,14 @@ namespace SimplePong
                 compHitLast = false;
                 playerHitLast = true;
                 MoveX = -MoveX; // reverse direction
+                ballPlay.Play();
             }
             if (Ball.Bounds.IntersectsWith(Computer.Bounds) && !compHitLast)
             {
                 compHitLast = true;
                 playerHitLast = false;
                 MoveX = -MoveX; // reverse direction
+                ballPlay.Play();
             }
         }
 
